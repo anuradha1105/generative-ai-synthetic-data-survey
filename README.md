@@ -25,8 +25,7 @@ All artifacts—slides, video, Medium article, and written survey—are included
 ---
 
 ## 📰 Medium Article  
-A readable article summarizing the survey in an accessible storytelling format.  
-[➡ *(Add your Medium link here)*](https://medium.com/@anuradhasrivastav25/synthetic-data-in-the-genai-era-what-the-2025-survey-teaches-us-about-the-future-of-data-mining-36ef9f55e020?postPublishedType=initial)
+A readable article summarizing the survey in an accessible storytelling format.  (https://medium.com/@anuradhasrivastav25/synthetic-data-in-the-genai-era-what-the-2025-survey-teaches-us-about-the-future-of-data-mining-36ef9f55e020?postPublishedType=initial)
 
 ---
 
