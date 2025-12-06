@@ -1,95 +1,39 @@
-# Generative AI for Synthetic Data: A Comprehensive Survey (2025)
-### CMPE 255 — Short Story / Survey Assignment   
-**Source Paper (Survey):** https://arxiv.org/abs/2501.08839
+# Synthetic Tabular Data Generation (2025) – CMPE 255 Short Story Assignment
 
----
+This repository summarizes the 2025 survey paper: https://arxiv.org/abs/2504.16506
 
-## 📌 Overview
-This repository contains all deliverables for the CMPE 255 Short Story / Survey Assignment based on the 2025 arXiv survey paper **“Generative AI for Synthetic Data: A Comprehensive Survey.”**
+**A Comprehensive Survey of Synthetic Tabular Data Generation (arXiv:2504.16506)**
 
-Synthetic data has become an essential resource in modern data mining and machine learning. This project explores:
-- Generative models used for synthetic data  
-- Why synthetic data is useful  
-- Evaluation metrics (fidelity, utility, privacy, diversity)  
-- Real-world applications  
-- Challenges and future directions  
+## Overview
+Synthetic tabular data helps address:
+- Privacy restrictions  
+- Limited or imbalanced datasets  
+- High cost of data collection 
+- Synthetic data pipeline 
 
-All artifacts—slides, video, Medium article, and written survey—are included.
+Generative AI models learn statistical patterns of real data and generate synthetic rows that preserve structure without exposing sensitive information.
 
----
+## Methods
+- **GANs (CTGAN, TableGAN)** – strong fidelity  
+- **VAEs (TVAE)** – stable & mixed‑type handling  
+- **Diffusion Models (2025)** – best diversity & stability  
+- **LLM‑based synthesis** – schema‑aware, rule‑driven rows  
 
-## 📁 Repository Structure
+## Evaluation Metrics
+- **Fidelity** – similarity to real data  
+- **Utility** – model performance on synthetic vs real  
+- **Privacy** – preventing identity leakage  
+- **Diversity** – covering rare patterns  
 
+## Applications
+- Healthcare (synthetic EHR)  
+- Finance (fraud/risk modeling)  
+- Retail (customer modeling)  
+- IoT (sensor simulation)  
 
+## Deliverables
+- Medium Article : https://medium.com/@anuradhasrivastav25/synthetic-data-in-the-genai-era-what-the-2025-survey-teaches-us-about-the-future-of-data-mining-36ef9f55e020?postPublishedType=initial
 
----
+- SlideShare Presentation :(https://www.slideshare.net/slideshow/generative-ai-for-synthetic-tabular-data-deep-dive-into-methods-evaluation-and-real-world-applications/284502046)
 
-## 📰 Medium Article  
-A readable article summarizing the survey in an accessible storytelling format.  (https://medium.com/@anuradhasrivastav25/synthetic-data-in-the-genai-era-what-the-2025-survey-teaches-us-about-the-future-of-data-mining-36ef9f55e020?postPublishedType=initial)
-
----
-
-## 📊 Slide Deck  
-A 15-slide professional presentation covering:
-- Motivation  
-- Generative models (GANs, VAEs, Diffusion, LLMs)  
-- Applications in healthcare, finance, IoT, etc.  
-- Evaluation methods  
-- Limitations & future directions  
-
-Slides PDF:  
-`/slides/synthetic_data_survey_slides.pdf`
-
----
-
-## 🎥 Video Presentation  
-A 10–15 minute recorded video explaining the survey with slides.  
-
-
----
-
-## 📄 Short Story / Survey PDF  
-An academic-style summary following the structure:
-- Abstract  
-- Introduction  
-- Related Work  
-- Methods  
-- Applications  
-- Challenges  
-- Future work  
-- Conclusion  
-
-PDF:  
-`/paper/synthetic_data_survey.pdf`
-
----
-
-## 🔍 Why This Topic?  
-- Brand new **2025** arXiv survey  
-- Highly relevant to **data mining & generative models**  
-- Easy to understand and explain  
-- Not chosen by previous students  
-- Rich in examples and applications  
-
----
-
-## 🧪 Key Insights from the Survey  
-- Diffusion models outperform GANs for high-fidelity synthetic data  
-- LLMs generate realistic text-based and structured data  
-- Evaluation is multidimensional: fidelity, privacy, diversity, utility  
-- Synthetic data improves training for rare events  
-- Healthcare, finance, cybersecurity, and IoT benefit the most  
-
----
-
-## 🚀 Tools & Technologies Used  
-- Generative AI (GANs, VAEs, Diffusion Models, LLMs)  
-- Data mining techniques  
-- Google Slides / PowerPoint  
-- Medium.com  
-- Screen recording tools for video  
-
----
-
-
-### ⭐ CMPE 255 — San José State University  
+- Video Presentation : https://drive.google.com/drive/u/2/folders/1FKUwveC77CIBoU4WaariAzA4FhW5Va39
